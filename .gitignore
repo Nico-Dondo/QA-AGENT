@@ -1,0 +1,12 @@
+# Ignorar configuraciones locales y credenciales de Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Opcional: Si usás entorno virtual local, también ignoralo
+.venv/
+venv/
+env/
